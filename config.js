@@ -34,7 +34,7 @@ config = {
         // Change this to your Ghost blogs published URL.
         url: 'http://essam.io/',
 
-        // Example mail config
+        // Example mail config - still need to update
         // Visit http://support.ghost.org/mail for instructions
         // ```
         //  mail: {
