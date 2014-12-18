@@ -8,7 +8,7 @@
     <header class="main-header author-head {{#if cover}}" style="background-image: url({{cover}}){{else}}no-cover{{/if}}">
         <nav class="main-nav overlay clearfix">
             <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
-            <a class="subscribe-button icon-feed" href="{{url}}rss/">{{name}}</a>
+            <a class="subscribe-button icon-feed" href="/projects">Projects</a>
         </nav>
     </header>
 
@@ -28,10 +28,9 @@
     </section>
 {{/author}}
 
-{{! The main content area on the homepage }}
+
 <main class="content" role="main">
 
-    {{! The tag below includes the post loop - partials/loop.hbs }}
-    {{> "loop"}}
+{{! Refer to loop.hbs in partials for css tags }}
 
 </main>
