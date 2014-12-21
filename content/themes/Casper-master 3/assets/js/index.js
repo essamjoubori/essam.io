@@ -57,7 +57,7 @@
         casperFullImg();
         $(window).smartresize(casperFullImg);
 
-        $(".scroll-down").arctic_scroll();
+        $(".scroll-down, .scroll-down-blog").arctic_scroll();
 
     });
 
