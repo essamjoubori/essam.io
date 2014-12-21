@@ -658,7 +658,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
-.no-cover .subscribe-button {
+.no-cover .subscribe-button, .no-cover .about-me-button {
     background: none;
 }
 
@@ -669,6 +669,7 @@ margin on the iframe, cause it breaks stuff. */
 .main-nav.overlay .back-button,
 .main-nav.overlay .subscribe-button, .main-nav.overlay .about-me-button {
     border-color: rgba(255,255,255,0.6);
+    margin-right: 10px;
 }
 
 .main-nav.overlay a:hover {
@@ -720,7 +721,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
+.no-cover .main-nav.overlay .subscribe-button, .no-cover .main-nav.overlay .about-me-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
@@ -1516,7 +1517,7 @@ body:not(.post-template) .post-title {
     }
 
     .back-button,
-    .subscribe-button {
+    .subscribe-button, .about-me-button {
         height: 44px;
         line-height: 41px;
         border-radius: 0;
@@ -1524,7 +1525,7 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
-    .subscribe-button:hover {
+    .subscribe-button:hover, .about-me-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
@@ -1534,7 +1535,7 @@ body:not(.post-template) .post-title {
         padding: 0 15px 0 10px;
     }
 
-    .subscribe-button {
+    .subscribe-button, .about-me-button {
         padding: 0 12px;
     }
 
@@ -1548,12 +1549,12 @@ body:not(.post-template) .post-title {
         background: none;
     }
     .no-cover .main-nav.overlay .back-button,
-    .no-cover .main-nav.overlay .subscribe-button {
+    .no-cover .main-nav.overlay .subscribe-button, .no-cover .main-nav.overlay .about-me-button {
         border: none;
     }
 
     .main-nav.overlay .back-button,
-    .main-nav.overlay .subscribe-button {
+    .main-nav.overlay .subscribe-button, .main-nav.overlay .about-me-button {
         border-color: transparent;
     }
 
