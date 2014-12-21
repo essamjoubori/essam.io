@@ -545,7 +545,9 @@ margin on the iframe, cause it breaks stuff. */
 .no-cover .scroll-down,
 .no-cover.main-header:after,
 .archive-template .scroll-down,
-.archive-template .main-header:after {
+.archive-template .scroll-down-blog,
+.archive-template .main-header:after 
+.no-cover .scroll-down-blog {
     display: none
 }
 
@@ -1381,7 +1383,7 @@ body:not(.post-template) .post-title {
         padding: 15% 0;
     }
 
-    .scroll-down,
+    .scroll-down,.scroll-down-blog,
     .home-template .main-header:after { display: none; }
 
     .archive-template .main-header {
