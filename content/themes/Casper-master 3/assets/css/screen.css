@@ -618,6 +618,11 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 6px;
 }
 
+.about-me-button:before {
+    font-size: 9px;
+    margin-right: 6px;
+}
+
 .about-me-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -662,7 +667,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
-.main-nav.overlay .subscribe-button {
+.main-nav.overlay .subscribe-button, .main-nav.overlay .about-me-button {
     border-color: rgba(255,255,255,0.6);
 }
 
@@ -675,7 +680,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
-.subscribe-button:hover {
+.subscribe-button:hover, .about-me-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
 }
